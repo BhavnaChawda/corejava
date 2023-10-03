@@ -1,0 +1,11 @@
+package Interface;
+
+public interface RichMane extends SocialWork {
+	public void earnmony();
+	
+	public void donation();
+	
+
+	public void party();
+
+}

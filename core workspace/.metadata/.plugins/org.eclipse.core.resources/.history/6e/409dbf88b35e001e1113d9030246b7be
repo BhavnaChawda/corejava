@@ -1,0 +1,14 @@
+package Polymorphis;
+
+public class Employe {
+	public void ShowDetail() {
+		System.out.println("this is employ detail");
+	
+	}
+	class Devloper extends Employe{
+		public void Showdetail() {
+			System.out.println("this is Devloper Detail");
+		}
+	}
+
+}

@@ -1,0 +1,42 @@
+package Inheritance;
+class Bhavna{
+	private String color;
+	private int borderwidth;
+	
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public String getColor() {
+		return color;
+	}
+	public void setBorderWidth(int borderwidth) {
+		this.borderwidth = borderwidth;
+	}
+	public int getBorderWidth() {
+		return borderwidth;
+	}
+	
+}
+ class Circle{
+	 private int radius;
+	 private double PI= 3.14;
+	 public void setRadius(int radius) {
+		 this.radius = radius;
+	 }
+	 public int getRadius() {
+		 return radius;
+	 }
+	 public void area() {
+		 double area = PI*getRadius()*getRadius();
+	 }
+	 
+	 
+ }
+
+
+public class CircleArea {
+	public static void main(String[] args) {
+		
+	}
+
+}

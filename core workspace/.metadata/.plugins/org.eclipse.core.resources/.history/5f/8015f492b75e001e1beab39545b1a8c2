@@ -1,0 +1,12 @@
+package Polymorphis;
+
+public class Employe_main {
+	public static void main(String[] args) {
+		Employe e  = new Employe();
+		e.ShowDetail();
+		
+	}
+	Employe e = new Devloper();
+	e.ShowDetail();
+
+}

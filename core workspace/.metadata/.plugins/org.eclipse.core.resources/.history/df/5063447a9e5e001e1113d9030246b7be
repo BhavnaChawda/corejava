@@ -1,0 +1,12 @@
+package Polymorphis;
+
+public class StudentDetial {
+	public void read() {
+		System.out.println("student reading book");
+	}
+    void read(String bookname) {
+		System.out.println("this is a book name   ");
+		System.out.println(bookname);
+	}
+
+}

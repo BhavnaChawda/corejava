@@ -1,0 +1,31 @@
+package Polymorphis;
+ class Employe {
+	 void ShowDetail() {
+		System.out.println("this is employ detail");
+	
+	}
+	 void ShowDetail(String name) {
+		 System.out.println(name);
+	 }
+	 
+ }
+	class Devloper extends Employe{
+		 void Showdetail() {
+			System.out.println("this is Devloper Detail");
+		}
+		 void Showdetail(String name) {
+			System.out.println(name);
+		}
+	}
+
+
+
+public class Employe_main {
+	public static void main(String[] args) {
+	Employe e1;
+	e1= new Devloper();
+	e1.ShowDetail();
+	e1.ShowDetail("sham");
+	}
+
+}

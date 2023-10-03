@@ -1,0 +1,18 @@
+package Constracter;
+
+public class OverlodingCons {
+	int BorderWidth;
+       String Color;
+	public void setBorderWidth(int BorderWidth) {
+		 BorderWidth = BorderWidth;
+	}
+	public int getBorderWidth() {
+		return BorderWidth;
+	}
+	public void setColor(String Color) {
+		 Color = Color;
+	}
+	public String getColor() {
+		return Color;
+	}
+}

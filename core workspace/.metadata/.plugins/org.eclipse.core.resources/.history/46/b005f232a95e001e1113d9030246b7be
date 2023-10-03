@@ -1,0 +1,19 @@
+package Polymorphis;
+
+public class Tringle extends Rectangle {
+	private int length;
+	private int width;
+	public void getLength(int length) {
+		this.length = length;
+	}
+	public int setLength() {
+		return length;
+	}
+	public void getWidth(int width) {
+		this.width = width;
+	}
+	public int setWidth() {
+		return width;
+	}
+
+}

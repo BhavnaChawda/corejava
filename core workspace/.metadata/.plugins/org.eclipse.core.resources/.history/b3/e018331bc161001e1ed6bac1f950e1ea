@@ -1,0 +1,6 @@
+package Interface;
+
+public interface Buisnessman implements RichMane, SocialWork {
+	
+
+}

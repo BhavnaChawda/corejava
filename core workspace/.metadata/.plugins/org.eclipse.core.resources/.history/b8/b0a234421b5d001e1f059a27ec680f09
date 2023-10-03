@@ -1,0 +1,34 @@
+package Inheritance;
+
+
+	 
+	 
+
+}
+class Rectangal extends Bhavna {
+	int length;
+	int width;
+	public void setLength(int length){
+		this.length=length;
+	}
+	 public int getLenth() {
+		 return length;
+	 }
+	 public void setWidth(int width) {
+		 this.width = width;
+	 }
+	 public int getWidth() {
+		 return width;
+	 }
+	 public void Bhavna2() {
+		 System.out.println(length);
+		 System.out.println(width);
+	 }
+	  
+	
+	
+	
+}
+    public class Chawda_main{
+    	
+    }
